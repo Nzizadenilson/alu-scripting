@@ -14,7 +14,7 @@ def number_of_subscribers(subreddit):
         response = requests.get(
             url,
             headers=headers,
-            aloow_redirects=False,
+            allow_redirects=False,
             timeout=10
         )
         
