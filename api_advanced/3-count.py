@@ -2,8 +2,8 @@
 """
 Recursively queries Reddit API and counts keywords in hot article titles.
 """
-import requests
 import re
+import requests
 def count_words(subreddit, word_list, after=None, counts=None):
     if counts is None:
         counts = {}
